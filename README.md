@@ -14,7 +14,7 @@ this strongly reflect in our:
 - name
 - choice of company 
 ### our goals
-The goal of Connexa is to get as many people connected to
+The goal of Connexa is to get as many people connected to the internet and each other
 
 ## Services assigned to `Cyraz`
 Connexa is an Internet service provider (ISP), company that provides Internet connections and services to individuals and organizations.

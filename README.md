@@ -58,4 +58,4 @@ In addition to providing access to the Internet, we may also provide software pa
 - 2000 Antwerpen 
 - Belgium
 ## Development-strategy  assigned to `Galal`
-## Development-strategy assign to `Galal`
+

@@ -1,5 +1,5 @@
 # connexa
-## whats is connexa asignt `Brian` 
+## whats is connexa? Asigned to `Brian` 
 
 
 
@@ -9,13 +9,13 @@
 
 
 
-## about assign to ` Brain`
+## About assigned to ` Brain`
 
 
 
-## Services assinn to `Cyruz`
+## Services assigned to `Cyraz`
 
-## Contact assign to ` Klarida`
+## Contact assigned to ` Klarida`
 
 
-## Development-strategy  assign to `Galal`
+## Development-strategy  assigned to `Galal`

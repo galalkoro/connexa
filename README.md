@@ -69,6 +69,5 @@ In addition to providing access to the Internet, we may also provide software pa
 
 ## Development-strategy  assigned to `Galal`
 
-## Development-strategy assign to `Galal`
 
 >>>>>>> 4c289d29eef71aad73e328e93719a00abbe84be9

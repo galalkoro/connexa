@@ -1,8 +1,13 @@
 # connexa
+<<<<<<< HEAD
+## whats is connexa? Asigned to `Brian` 
+
+=======
 
 ## whats is connexa? Asigned to `Brian` 
 
 
+>>>>>>> 4c289d29eef71aad73e328e93719a00abbe84be9
 ## whats is connexa asignt `Brian` 
 
 ### What is connexa
@@ -19,6 +24,19 @@ this strongly reflect in our:
 - name
 - choice of company 
 ### our goals
+<<<<<<< HEAD
+The goal of Connexa is to get as many people connected to the internet and each other
+
+
+## Services
+
+Connexa is an Internet service provider (ISP), company that provides Internet connections and services to individuals and organizations.
+In addition to providing access to the Internet, we may also provide software packages (such as browsers), e-mail accounts, and a personal Web site or home page.We provide other services including Email services,Web hosting, Domain Registration and Browser packages all at a very affordable fee.
+
+## Contact assigned to ` Klarida`
+
+## Development-strategy assign to `Galal`
+=======
 The goal of Connexa is to get as many people connected to
 
 
@@ -53,3 +71,4 @@ In addition to providing access to the Internet, we may also provide software pa
 
 ## Development-strategy assign to `Galal`
 
+>>>>>>> 4c289d29eef71aad73e328e93719a00abbe84be9

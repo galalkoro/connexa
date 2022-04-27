@@ -1,4 +1,5 @@
 # connexa
+<<<<<<< HEAD
 ## whats is connexa asignt `Brian` 
 ### What is connexa
 connexa is an internet provider company that provides Wireless, Wired and mobile internet with competetive speeds and prices.
@@ -15,6 +16,10 @@ this strongly reflect in our:
 - choice of company 
 ### our goals
 The goal of Connexa is to get as many people connected to
+=======
+## whats is connexa? Asigned to `Brian` 
+
+>>>>>>> 1af627fb1402d5977ae22e53679778e1a4e81c4d
 
 
 
@@ -23,13 +28,13 @@ The goal of Connexa is to get as many people connected to
 
 
 
-## about assign to ` Brain`
+## About assigned to ` Brain`
 
 
 
-## Services assinn to `Cyruz`
+## Services assigned to `Cyraz`
 
-## Contact assign to ` Klarida`
+## Contact assigned to ` Klarida`
 
 
-## Development-strategy  assign to `Galal`
+## Development-strategy  assigned to `Galal`

@@ -1,3 +1,4 @@
+
 # connexa
 
 ## whats is connexa? Asigned to `Brian` 
@@ -7,7 +8,7 @@
 
 ### What is connexa
 
-connexa is an internet provider company that provides Wireless, Wired and mobile internet with competetive speeds and prices.
+connexa is an internet provider company that provides Wireless, Wired and mobile internet with competitive speeds and prices.
 
 ---
 ### The name:
@@ -53,9 +54,17 @@ In addition to providing access to the Internet, we may also provide software pa
 
 
 
+### 2. How can you make this project and collaborate?
 
-- Vleminckreld 19 
-- 2000 Antwerpen 
-- Belgium
-## Development-strategy  assigned to `Galal`
+You can access this project on my [Github](https://github.com/galalkoro/connexa) collaborate on there as well. 🎉
+
+### 1. Requirement to start
+-  Install  [Git ](https://git-scm.com/downloads)
+-  Have a  [Github account](https://github.com/)
+-  Code editor [(such as vscode)](https://code.visualstudio.com/download)
+
+### 4. For whom?
+
+Beginner developers who especially want to learn `collaboration on GitHub`
+
 

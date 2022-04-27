@@ -49,6 +49,29 @@ In addition to providing access to the Internet, we may also provide software pa
 ## Contact assigned to ` Klarida`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Email:
+
+- connexa@gmail.com
+
+# Telephone
+
+- 0032/ 034/ 051/ 719
+# Street 
+
+- Vleminckreld 19 
+- 2000 Antwerpen 
+- Belgium
+
+
+
+
+
+=======
+<<<<<<< HEAD
+>>>>>>> 3abf912c967eadeab6b90aefd8137c59a4266cc8
+>>>>>>> acff1b56284b40a6fb4a3b3728770e9b629df5a4
 
 ## Development-strategy  assigned to `Galal`
 =======

@@ -1,0 +1,16 @@
+body {
+  background-color: green;
+}
+
+.se-img, .se-card {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  background-color: pink;
+}
+
+.se-img, .se-card {
+  padding: 2%;
+  margin-bottom: 1.5em;
+}
+/*# sourceMappingURL=styles.css.map */

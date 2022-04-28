@@ -10,19 +10,14 @@
   margin-bottom: 1.5em;
 }
 
-.navbar {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.navbar a {
-  width: 5%;
-}
-
-.navbar img {
+.navbar .logoAbout {
   height: auto;
-  width: 100%;
+  width: 20%;
+  margin-left: 10%;
+}
+
+.navbar .navbox {
+  width: 70%;
 }
 
 .aboutHeader {
@@ -38,15 +33,16 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -ms-flex-line-pack: right;
+      align-content: right;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  float: right;
 }
 
 .aboutHeader a {
@@ -56,7 +52,7 @@
 }
 
 .aboutHeader a:hover {
-  text-shadow: 0 0 2rem rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 2rem white;
 }
 
 .aboutHeader .highlight, .aboutHeader .current a {
@@ -65,7 +61,7 @@
 }
 
 .aboutHeader .current a:hover {
-  text-shadow: 0 0 2rem rgba(232, 73, 29, 0.7);
+  text-shadow: 0 0 2rem rgba(232, 73, 29, 0.1);
 }
 
 body {

@@ -18,30 +18,36 @@
     margin-bottom: 1.5em;
 }
 .navbar{
-    a{
-        width:5%;
-    }
-    img{
+    
+    .logoAbout{
         height: auto;
-        width:100%;
+        width:20%;
+        margin-left: 10%;
+        
     }
-justify-content: center;
+    .navbox{
+       width:70%;
+        
+    }
+
 }
 .aboutHeader{
     margin-bottom: 3%;
     li {
         display:inline-flex;
-        justify-content: center;
-        align-content: center;
+        justify-content: right;
+        align-content: right;
         flex-direction: column;
+        float: right;
     }
     a{
         color: white;
         text-decoration: none;
         text-transform:uppercase;
+        
     }
     a:hover {
-        text-shadow: 0 0 2rem rgba($color: white, $alpha: .7);
+        text-shadow: 0 0 2rem rgba($color: white, $alpha: 1);
     }
     .highlight, .current a {
     
@@ -49,7 +55,7 @@ justify-content: center;
         font-weight: bold;
     }
     .current a:hover{
-        text-shadow: 0 0 2rem rgba($color: #e8491D, $alpha: .7);
+        text-shadow: 0 0 2rem rgba($color: #e8491D, $alpha: .1);
     }
     background: #35424a;
     color: #ffffff;

@@ -4,58 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <script src="./validation/validator.js"></script>
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-
+    <link rel="stylesheet" href="./styles/styles.css">
     
-    <title>connexa</title>
+
+    <!-- Bootstrap CSS -->
+    
 </head>
 <body>
     
   
-   
+    <header>
+        <div class="container">
+          <div id="branding">
+          </div>
+          <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+              <li  class="current"><a href="service.html">Services</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header> 
+    
 
-  <header class="aboutHeader">
-              
-            
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <a href="about.html" class="logoAbout"> <img class="logoAbout" src="images/circle.png" alt=""></a>
-      <section class="navbox">
-      <ul>
-          <li><a href="index.html">Home</a></li>
-        <li><a href="service.html">Services</a></li>
-        <li class="current"><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contacts</a></li>
-      </ul>
-    </section>
-    </nav>
-  
+<!-- asigned to Cyraz services -->
 
-</header> 
-  
-
-
-<!-- asign to cyraz services -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="container">
+    <div class="row"> 
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card mb-xl-3" style="width: 18rem;">
+          <img src="./images/internet-service-providers.gif" class="card-img-top" alt="image">
+          <div class="card-body text-center ">
+            <h5 class="card-title text-center">Networks</h5>
+            <p class="card-text text-center">Want the best possible data traffic between your branches in Belgium and Luxembourg? Is there constant communication with employees working from home? Discover our advantageous, fast and secure VPN solutions tailored to your company..</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">LEARN MORE</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="./images/isp.gif" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Website</h5>
+            <p class="card-text text-center">Do you want to create the most outstanding Website personalized for all your needs? an affordable one ? and other services related to websites. If you answered all the three questions <strong> YES</strong> let us help you with that right away.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">LEARN MORE</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="./images/wifi.gif" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Web Hosting</h5>
+            <p class="card-text text-center">While the competition is cut-throat, connexa continues to impress in almost every aspect, delivering the complete package of speed, security, versatility, and most importantly, superb reliability for just <strong>$2.75</strong>  per month. </p>
+            <hr class="mt-2 mb-2" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="VIEW DEAL" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">VIEW DEAL</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="./images/Speedometer_3.gif.crdownload" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Internet</h5>
+            <p class="card-text text-center">Internet, TV and landline telephone connection in one pack? Then you are at the right place at connexa. connexa offers <strong>3</strong>  different packs : basic light, basic and basic +.</p>
+            <hr class="mt-2 mb-2" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50 " data-toggle="tooltip" data-placement="bottom" title="VIEW PACKS" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">VIEW PACKS</button>
+          </div>  
+        </div>
+      </div>
+    </div>
 
     <footer>
         <p>connexa, Copyright &copy; 2020</p>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./validation/validator.js"></script>
+
 </body>
 </html>

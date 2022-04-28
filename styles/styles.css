@@ -6,7 +6,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color:#93d0e2b6 ;
+    background-color:#fbfdfeb6 ;
 }
 
 
@@ -14,15 +14,15 @@ body {
 /* Header*/
 
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 30px;
-    min-height: 70px;
-    border-bottom: #e8491D 3px solid;
+    background: #d9dee0;
+    color: #f4f806;
+    padding: 10px;
+    min-height: 100px;
+    border-bottom: #f0edec 1px solid;
 }
 
 header a {
-    color: #ffffff;
+    color: #0a0303;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -32,7 +32,7 @@ header a {
 
 header li {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 10px 40px 10px 40px;
 }
 
 header #branding {
@@ -50,16 +50,24 @@ header nav{
 
 header .highlight, header .current a {
 
-    color: #e8491D;
+    color: #010201;
     font-weight: bold;
+    
 }
 
 header a:hover {
-    color: #cccccc;
+    color: #e8f40a;
     font-weight: bold;
 }
 
+/* logo */
+#logo-connexa{ 
 
+	top: 0; 
+	left: 0; 
+    z-index: 1000;
+    width: 90px;
+} 
 
 
 

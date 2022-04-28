@@ -1,7 +1,7 @@
 
 .se-img{
-@extend %section-styling;
-@extend %paddingAllround;
+    @extend %section-styling;
+    @extend %paddingAllround;
 }
 .se-card{
     @extend %paddingAllround;
@@ -11,58 +11,21 @@
     width: 70%;
     height: auto;
     margin-left:15%;
-    background-color: pink;
+   /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 %paddingAllround{
     padding:2%;
     margin-bottom: 1.5em;
 }
-.navbar{
-    
-    .logoAbout{
-        height: auto;
-        width:20%;
-        margin-left: 10%;
-        
+.se-card{
+    img{
+        border-radius: 5%;
     }
-    .navbox{
-       width:70%;
-       padding-right: 10%;
-        
-    }
-
-}
-.aboutHeader{
-    margin-bottom: 3%;
-    li {
-        display:inline-flex;
-        justify-content: right;
-        align-content: right;
-        flex-direction: column;
-        float: right;
-    }
-    a{
-        color: white;
-        text-decoration: none;
-        text-transform:uppercase;
-        
-    }
-    a:hover {
-        text-shadow: 0 0 2rem rgba($color: white, $alpha: 1);
-    }
-    .highlight, .current a {
-    
-        color: #e8491D;
-        font-weight: bold;
-    }
-    .current a:hover{
-        text-shadow: 0 0 2rem rgba($color: #e8491D, $alpha: .1);
-    }
-    background: #35424a;
-    color: #ffffff;
-    max-height: 10%;
-    border-bottom: #e8491D 3px solid;
-        /* Column | row */
 }
 
 

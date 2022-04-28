@@ -1,91 +1,93 @@
+.se-img, .se-card {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
 
+.se-img, .se-card {
+  padding: 2%;
+  margin-bottom: 1.5em;
+}
+
+.se-card img {
+  border-radius: 5%;
+}
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    background-color:#fbfdfeb6 ;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #93d0e2b6;
 }
 
-
-
-/* Header*/
-
-header {
-    background: #d9dee0;
-    color: #f4f806;
-    padding: 10px;
-    min-height: 100px;
-    border-bottom: #f0edec 1px solid;
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e3c4ee;
+  text-align: center;
 }
 
-header a {
-    color: #0a0303;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
+.navbar .logoAbout {
+  height: auto;
+  width: 20%;
+  margin-left: 10%;
 }
 
- 
-
-header li {
-    display: inline;
-    padding: 10px 40px 10px 40px;
+.navbar .navbox {
+  width: 70%;
+  padding-right: 10%;
 }
 
-header #branding {
-    float: left;
+.aboutHeader {
+  margin-bottom: 3%;
+  background: #35424a;
+  color: #ffffff;
+  max-height: 10%;
+  border-bottom: #e8491D 3px solid;
+  /* Column | row */
 }
 
-header #branding h1{
-    margin: 0;
+.aboutHeader li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -ms-flex-line-pack: right;
+      align-content: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: right;
 }
 
-header nav{
-    float: right;
-    margin-top: 10px;
+.aboutHeader a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-header .highlight, header .current a {
-
-    color: #010201;
-    font-weight: bold;
-    
+.aboutHeader a:hover {
+  text-shadow: 0 0 2rem white;
 }
 
-header a:hover {
-    color: #e8f40a;
-    font-weight: bold;
+.aboutHeader .highlight, .aboutHeader .current a {
+  color: #e8491D;
+  font-weight: bold;
 }
 
-/* logo */
-#logo-connexa{ 
-
-	top: 0; 
-	left: 0; 
-    z-index: 1000;
-    width: 90px;
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-/*footer*/
-
-footer{
-    padding: 20px;
-    margin-top: 20px;
-    color:#ffffff;
-    background-color: #e3c4ee;
-    text-align: center;
+.aboutHeader .current a:hover {
+  text-shadow: 0 0 2rem rgba(232, 73, 29, 0.1);
 }
+/*# sourceMappingURL=styles.css.map */

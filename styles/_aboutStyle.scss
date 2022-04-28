@@ -1,6 +1,4 @@
-body{
-    background-color: green;
-}
+
 .se-img{
 @extend %section-styling;
 @extend %paddingAllround;
@@ -19,3 +17,47 @@ body{
     padding:2%;
     margin-bottom: 1.5em;
 }
+.navbar{
+    a{
+        width:5%;
+    }
+    img{
+        height: auto;
+        width:100%;
+    }
+justify-content: center;
+}
+.aboutHeader{
+    margin-bottom: 3%;
+    li {
+        display:inline-flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        text-transform:uppercase;
+    }
+    a:hover {
+        text-shadow: 0 0 2rem rgba($color: white, $alpha: .7);
+    }
+    .highlight, .current a {
+    
+        color: #e8491D;
+        font-weight: bold;
+    }
+    .current a:hover{
+        text-shadow: 0 0 2rem rgba($color: #e8491D, $alpha: .7);
+    }
+    background: #35424a;
+    color: #ffffff;
+    max-height: 10%;
+    border-bottom: #e8491D 3px solid;
+        /* Column | row */
+}
+
+
+
+

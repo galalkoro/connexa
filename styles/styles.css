@@ -92,7 +92,7 @@ footer {
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #e3c4ee;
+  background-color: #35424a;
   text-align: center;
 }
 
@@ -148,6 +148,6 @@ footer {
 }
 
 .aboutHeader .current a:hover {
-  text-shadow: 0 0 2rem rgba(232, 73, 29, 0.1);
+  text-shadow: 0 0 2rem #e8491d;
 }
 /*# sourceMappingURL=styles.css.map */

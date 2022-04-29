@@ -7,6 +7,11 @@
     @extend %paddingAllround;
     @extend %section-styling;
 }
+%cbgrid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 %buttonhover{
     box-shadow: 0 0 20px rgba($color: rgb(248, 207, 132), $alpha: .5);
 }
@@ -130,4 +135,10 @@ body, html{
 }
 #b4:hover{
     @extend %buttonhover;
+}
+#cb1,
+#cb2,
+#cb3,
+#cb4{
+    @extend %cbgrid;
 }

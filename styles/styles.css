@@ -1,3 +1,8 @@
+#mycard1:hover, #mycard2:hover, #mycard3:hover, #mycard4:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
 #cb1,
 #cb2,
 #cb3,
@@ -37,6 +42,11 @@
 
 .se-card .row #brian, .se-card .row #galal, .se-card .row #cyraz, .se-card .row #klarida, #mycard1, #mycard2, #mycard3, #mycard4 {
   border-radius: 50%;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+  margin-top: 1em;
 }
 
 #rounding1, #rounding2, #rounding3, #rounding4 {
@@ -67,22 +77,6 @@
 
 body, html {
   height: 100%;
-}
-
-#mycard1 {
-  margin-top: 1em;
-}
-
-#mycard2 {
-  margin-top: 1em;
-}
-
-#mycard3 {
-  margin-top: 1em;
-}
-
-#mycard4 {
-  margin-top: 1em;
 }
 
 .heroheader {

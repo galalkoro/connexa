@@ -7,6 +7,10 @@
     @extend %paddingAllround;
     @extend %section-styling;
 }
+//extentions
+%onhoverbigger{
+    transform: scale(.8);
+}
 %cbgrid{
     display: grid;
     justify-content: center;
@@ -32,6 +36,8 @@
 }
 %imgStyling{
     border-radius: 50%;
+    transition: transform .5s;
+    margin-top:1em;
 }
 %roundingCard{
     border-radius: 1em;
@@ -79,19 +85,15 @@ body, html{
     height: 100%;
 }
 #mycard1{
-    margin-top:1em;
     @extend %imgStyling;
 }
 #mycard2{
-    margin-top:1em;
     @extend %imgStyling;
 }
 #mycard3{
-    margin-top:1em;
     @extend %imgStyling;
 }
 #mycard4{
-    margin-top:1em;
     @extend %imgStyling;
 }
 #rounding1{
@@ -141,4 +143,17 @@ body, html{
 #cb3,
 #cb4{
     @extend %cbgrid;
+}
+//hovers mycard img
+#mycard1:hover{
+    @extend %onhoverbigger;
+}
+#mycard2:hover{
+    @extend %onhoverbigger;
+}
+#mycard3:hover{
+    @extend %onhoverbigger;
+}
+#mycard4:hover{
+    @extend %onhoverbigger;
 }

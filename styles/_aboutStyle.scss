@@ -25,6 +25,10 @@
 %imgStyling{
     border-radius: 50%;
 }
+%roundingCard{
+    border-top-left-radius: 8em;
+    border-top-right-radius: 8em;
+}
 .se-card{
 
 .row{
@@ -58,4 +62,32 @@
 }
 body, html{
     height: 100%;
+}
+#mycard1{
+    margin-top:1em;
+    @extend %imgStyling;
+}
+#mycard2{
+    margin-top:1em;
+    @extend %imgStyling;
+}
+#mycard3{
+    margin-top:1em;
+    @extend %imgStyling;
+}
+#mycard4{
+    margin-top:1em;
+    @extend %imgStyling;
+}
+#rounding1{
+   @extend %roundingCard;
+}
+#rounding2{
+    @extend %roundingCard;
+}
+#rounding3{
+    @extend %roundingCard;
+}
+#rounding4{
+    @extend %roundingCard;
 }

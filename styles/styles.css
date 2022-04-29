@@ -16,8 +16,13 @@
   margin-bottom: 1.5em;
 }
 
-.se-card .row #brian, .se-card .row #galal, .se-card .row #cyraz, .se-card .row #klarida {
+.se-card .row #brian, .se-card .row #galal, .se-card .row #cyraz, .se-card .row #klarida, #mycard1, #mycard2, #mycard3, #mycard4 {
   border-radius: 50%;
+}
+
+#rounding1, #rounding2, #rounding3, #rounding4 {
+  border-top-left-radius: 8em;
+  border-top-right-radius: 8em;
 }
 
 .parallax {
@@ -33,6 +38,22 @@
 
 body, html {
   height: 100%;
+}
+
+#mycard1 {
+  margin-top: 1em;
+}
+
+#mycard2 {
+  margin-top: 1em;
+}
+
+#mycard3 {
+  margin-top: 1em;
+}
+
+#mycard4 {
+  margin-top: 1em;
 }
 
 body {

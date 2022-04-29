@@ -90,7 +90,7 @@ footer {
 
 .navbar .navbox {
   width: 70%;
-  padding-right: 10%;
+  padding-right: 15%;
 }
 
 .aboutHeader {
@@ -115,6 +115,7 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   float: right;
+  padding-right: 10px;
 }
 
 .aboutHeader a {

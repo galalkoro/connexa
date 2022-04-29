@@ -1,3 +1,8 @@
+#b1:hover, #b2:hover, #b3:hover, #b4:hover {
+  -webkit-box-shadow: 0 0 20px rgba(248, 207, 132, 0.5);
+          box-shadow: 0 0 20px rgba(248, 207, 132, 0.5);
+}
+
 .se-img, .se-card {
   width: 70%;
   height: auto;

@@ -21,8 +21,18 @@
 }
 
 #rounding1, #rounding2, #rounding3, #rounding4 {
-  border-top-left-radius: 8em;
-  border-top-right-radius: 8em;
+  border-radius: 1em;
+  color: white;
+  background-color: #35424a;
+  margin-bottom: 3%;
+}
+
+#b1,
+#b2,
+#b3,
+#b4 {
+  background-color: orange;
+  border-color: orange;
 }
 
 .parallax {

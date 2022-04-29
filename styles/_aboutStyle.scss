@@ -26,8 +26,14 @@
     border-radius: 50%;
 }
 %roundingCard{
-    border-top-left-radius: 8em;
-    border-top-right-radius: 8em;
+    border-radius: 1em;
+    color: white;
+    background-color: #35424a;
+    margin-bottom: 3%;
+}
+%buttonStyling{
+    background-color: orange;
+    border-color: orange;
 }
 .se-card{
 
@@ -90,4 +96,10 @@ body, html{
 }
 #rounding4{
     @extend %roundingCard;
+}
+#b1,
+#b2,
+#b3,
+#b4{
+    @extend %buttonStyling;
 }

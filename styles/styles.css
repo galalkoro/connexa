@@ -38,7 +38,7 @@
 .parallax {
   background-image: url("/images/para.jpg");
   margin-bottom: 2em;
-  height: 20em;
+  height: 40%;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -64,6 +64,20 @@ body, html {
 
 #mycard4 {
   margin-top: 1em;
+}
+
+.heroheader {
+  color: white;
+  text-transform: uppercase;
+}
+
+.herobox {
+  height: 10%;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 40%;
+  width: 20%;
 }
 
 body {

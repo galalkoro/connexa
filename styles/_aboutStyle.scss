@@ -57,13 +57,14 @@
     background-image: url('/images/para.jpg');
     margin-bottom: 2em;
     //set the height
-    height: 20em;
+    height: 40%;
     width: 100%;
     //scroll effect
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    //textman
 
 }
 body, html{
@@ -102,4 +103,16 @@ body, html{
 #b3,
 #b4{
     @extend %buttonStyling;
+}
+.heroheader{
+    color: white;
+    text-transform: uppercase;
+}
+.herobox{
+    height: 10%;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 40%;
+    width: 20%;
 }

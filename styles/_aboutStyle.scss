@@ -22,12 +22,40 @@
     padding:2%;
     margin-bottom: 1.5em;
 }
+%imgStyling{
+    border-radius: 50%;
+}
 .se-card{
-    img{
-        border-radius: 5%;
+
+.row{
+    #brian{
+       @extend %imgStyling;
+    }
+    #galal{
+        @extend %imgStyling;
+     }
+    #cyraz{
+        @extend %imgStyling;
+     }
+    #klarida{
+        @extend %imgStyling;
+     }
     }
 }
+.parallax {
+    //imaging
+    background-image: url('/images/para.jpg');
+    margin-bottom: 2em;
+    //set the height
+    height: 10em;
+    width: 100%;
+    //scroll effect
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-
-
-
+}
+body, html{
+    height: 100%;
+}

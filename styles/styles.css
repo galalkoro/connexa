@@ -16,8 +16,23 @@
   margin-bottom: 1.5em;
 }
 
-.se-card img {
-  border-radius: 5%;
+.se-card .row #brian, .se-card .row #galal, .se-card .row #cyraz, .se-card .row #klarida {
+  border-radius: 50%;
+}
+
+.parallax {
+  background-image: url("/images/para.jpg");
+  margin-bottom: 2em;
+  height: 10em;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
 }
 
 body {
@@ -48,7 +63,6 @@ footer {
 }
 
 .aboutHeader {
-  margin-bottom: 3%;
   background: #35424a;
   color: #ffffff;
   max-height: 10%;

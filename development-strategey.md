@@ -14,10 +14,10 @@ _A user can see my initial repository and live demo just right hand of repo unde
 
 ## Repository 
 
-1. Created a new repository [generated]() from [this template]()
+1. Created a new repository [generated](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) from [this template](https://github.com/galalkoro/connexa/tree/development-strategy)
 1.  Clone the repository
 1. Copy-paste the markdown from this file to the empty `development-strategy.md` file in the new repo
-1. Add [this wireframe]() into your new repo
+1. Add [this wireframe](./wireframe.png) into your new repo
 1. Start your README file
 1. Push the changes
 1. turn on GitHub Pages

@@ -1,0 +1,91 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color:#fbfdfeb6 ;
+}
+
+
+
+/* Header*/
+
+header {
+    background: #d9dee0;
+    color: #f4f806;
+    padding: 10px;
+    min-height: 100px;
+    border-bottom: #f0edec 1px solid;
+}
+
+header a {
+    color: #0a0303;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ 
+
+header li {
+    display: inline;
+    padding: 10px 40px 10px 40px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+
+    color: #010201;
+    font-weight: bold;
+    
+}
+
+header a:hover {
+    color: #e8f40a;
+    font-weight: bold;
+}
+
+/* logo */
+#logo-connexa{ 
+
+	top: 0; 
+	left: 0; 
+    z-index: 1000;
+    width: 90px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: #e3c4ee;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: green;
+}
+.se-img{
+@extend %section-styling;
+@extend %paddingAllround;
+}
+.se-card{
+    @extend %paddingAllround;
+    @extend %section-styling;
+}
+%section-styling{
+    width: 70%;
+    height: auto;
+    margin-left:15%;
+    background-color: pink;
+}
+%paddingAllround{
+    padding:2%;
+    margin-bottom: 1.5em;
+}

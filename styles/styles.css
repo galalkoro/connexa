@@ -65,7 +65,7 @@
 }
 
 .parallax {
-  background-image: url("/images/para.jpg");
+  background-image: url("../images/para.jpg");
   margin-bottom: 2em;
   height: 40%;
   width: 100%;

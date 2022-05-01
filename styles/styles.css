@@ -79,18 +79,13 @@ body, html {
   height: 100%;
 }
 
+.middling {
+  text-align: center;
+}
+
 .heroheader {
   color: white;
   text-transform: uppercase;
-}
-
-.herobox {
-  height: 10%;
-  position: absolute;
-  text-align: center;
-  top: 30%;
-  left: 40%;
-  width: 20%;
 }
 
 body {

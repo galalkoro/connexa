@@ -1,20 +1,15 @@
 @import './aboutStyle';
-@import './home';
-@import './team';
+@import './klarida';
+@import './home'
 
 
-/* header for all pages & body */
 
-@import  url(../Font/css/all.min.css);
- 
 
 body {
-    margin: 0;
-    min-width: 250px;
-    overflow-x: hidden;
-    background-color: #1c3332;
-    
 
+    margin: 0;
+    padding: 0;
+    background-color: #93d0a2b6;
 }
 
 #currnt{

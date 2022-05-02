@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
     "cSpell.words": [
+<<<<<<< HEAD
         "connexa",
         "cyraz",
         "dribbble",
@@ -21,3 +22,9 @@
   ]
 }
 >>>>>>> b642feec50d2df120dc99448d330fe9708f2e1a7
+=======
+        "connexa"
+    ],
+    "livePreview.defaultPreviewPath": "/contact.html"
+}
+>>>>>>> 1168464c2f44ebc12aca335ebf85545b2a3fca3d

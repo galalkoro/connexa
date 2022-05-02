@@ -14,50 +14,10 @@ footer{
     background-color: #35424a;
     text-align: center;
 }
-.navbar{
-    
-    .logoAbout{
-        height: auto;
-        width:20%;
-        margin-left: 13%;
-        
-    }
-    .navbox{
-       width:70%;
-       padding-right: 15%;
-        
-    }
+#currnt{
+    color: rgb(0, 119, 255);
 
 }
-.aboutHeader{
-    li {
-        display:inline-flex;
-        justify-content: right;
-        align-content: right;
-        flex-direction: column;
-        float: right;
-        padding-right: 10px;
-    }
-    a{
-        color: white;
-        text-decoration: none;
-        text-transform:uppercase;
-        
-    }
-    a:hover {
-        text-shadow: 0 0 2rem rgba($color: white, $alpha: 1);
-    }
-    .highlight, .current a {
-    
-        color: #e8491D;
-        font-weight: bold;
-    }
-    .current a:hover{
-        text-shadow: 0 0 2rem rgba($color: #e8491D, $alpha: 1);
-    }
-    background: #35424a;
-    color: #ffffff;
-    max-height: 10%;
-    border-bottom: #e8491D 3px solid;
-        /* Column | row */
+.nav-link{
+    text-transform: uppercase;
 }

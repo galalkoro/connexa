@@ -1,9 +1,11 @@
-function classToggle() {
-    var el = document.querySelector('.icon-cards__content');
-    el.classList.toggle('step-animation');
-  }
+//function classToggle() {
+   // var el = document.querySelector('.icon-cards__content');
+   // el.classList.toggle('step-animation');
+ // }
   
-  document.querySelector('#toggle-animation').addEventListener('click', classToggle);
+  //document.querySelector('#toggle-animation').addEventListener('click', classToggle); 
+
+
 
   // cards links 
   var flipCheck = 0;
@@ -19,14 +21,14 @@ function rotateCards() {
     flipCheck = 1;
 
     setTimeout(function () {
-      document.getElementById("front-4").classList.add("showGreen");
-      document.getElementById("back-4").classList.add("showRed");
+     // document.getElementById("front-4").classList.add("showGreen");
+      //document.getElementById("back-4").classList.add("showRed");
 
-      document.getElementById("front-3").classList.add("showGreen");
-      document.getElementById("back-3").classList.add("showRed");
+      //document.getElementById("front-3").classList.add("showGreen");
+      //document.getElementById("back-3").classList.add("showRed");
 
-      document.getElementById("front-5").classList.add("showGreen");
-      document.getElementById("back-5").classList.add("showRed");
+      //document.getElementById("front-5").classList.add("showGreen");
+      //document.getElementById("back-5").classList.add("showRed");
 
       setTimeout(function () {
         document.getElementById("front-6").classList.add("showGreen");
@@ -46,14 +48,14 @@ function rotateCards() {
     flipCheck = 0;
 
     setTimeout(function () {
-      document.getElementById("front-3").classList.remove("showGreen");
-      document.getElementById("back-3").classList.remove("showRed");
+      //document.getElementById("front-3").classList.remove("showGreen");
+      //document.getElementById("back-3").classList.remove("showRed");
 
-      document.getElementById("front-4").classList.remove("showGreen");
-      document.getElementById("back-4").classList.remove("showRed");
+     // document.getElementById("front-4").classList.remove("showGreen");
+      //document.getElementById("back-4").classList.remove("showRed");
 
-      document.getElementById("front-5").classList.remove("showGreen");
-      document.getElementById("back-5").classList.remove("showRed");
+      //document.getElementById("front-5").classList.remove("showGreen");
+      //document.getElementById("back-5").classList.remove("showRed");
 
       setTimeout(function () {
         document.getElementById("front-7").classList.remove("showGreen");
@@ -61,9 +63,10 @@ function rotateCards() {
 
         document.getElementById("front-6").classList.remove("showGreen");
         document.getElementById("back-6").classList.remove("showRed");
-      }, 5000);
-    }, 5005);
+      }, 500);
+    }, 500);
   }
 }
 
 setInterval(rotateCards, 10000); // Time in milliseconds
+

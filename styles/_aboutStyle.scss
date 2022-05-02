@@ -7,6 +7,18 @@
     @extend %paddingAllround;
     @extend %section-styling;
 }
+//extentions
+%onhoverbigger{
+    transform: scale(.8);
+}
+%cbgrid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+%buttonhover{
+    box-shadow: 0 0 20px rgba($color: rgb(248, 207, 132), $alpha: .5);
+}
 %section-styling{
     width: 70%;
     height: auto;
@@ -22,12 +34,121 @@
     padding:2%;
     margin-bottom: 1.5em;
 }
+%imgStyling{
+    border-radius: 50%;
+    transition: transform .5s;
+    margin-top:1em;
+}
+%roundingCard{
+    border-radius: 1em;
+    color: white;
+    background-color: #35424a;
+    margin-bottom: 3%;
+}
+%buttonStyling{
+    background-color: orange;
+    border-color: orange;
+}
 .se-card{
-    img{
-        border-radius: 5%;
+
+.row{
+    #brian{
+       @extend %imgStyling;
+    }
+    #galal{
+        @extend %imgStyling;
+     }
+    #cyraz{
+        @extend %imgStyling;
+     }
+    #klarida{
+        @extend %imgStyling;
+     }
     }
 }
+.parallax {
+    //imaging
+    background-image: url('../images/para.jpg');
+    margin-bottom: 2em;
+    //set the height
+    height: 40%;
+    width: 100%;
+    //scroll effect
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //textman
 
-
-
-
+}
+body, html{
+    height: 100%;
+}
+#mycard1{
+    @extend %imgStyling;
+}
+#mycard2{
+    @extend %imgStyling;
+}
+#mycard3{
+    @extend %imgStyling;
+}
+#mycard4{
+    @extend %imgStyling;
+}
+#rounding1{
+   @extend %roundingCard;
+}
+#rounding2{
+    @extend %roundingCard;
+}
+#rounding3{
+    @extend %roundingCard;
+}
+#rounding4{
+    @extend %roundingCard;
+}
+#b1,
+#b2,
+#b3,
+#b4{
+    @extend %buttonStyling;
+}
+.middling{
+    text-align: center;
+}
+.heroheader{
+    color: white;
+    text-transform: uppercase;
+}
+#b1:hover{
+    @extend %buttonhover;
+}
+#b2:hover{
+    @extend %buttonhover;
+}
+#b3:hover{
+    @extend %buttonhover;
+}
+#b4:hover{
+    @extend %buttonhover;
+}
+#cb1,
+#cb2,
+#cb3,
+#cb4{
+    @extend %cbgrid;
+}
+//hovers mycard img
+#mycard1:hover{
+    @extend %onhoverbigger;
+}
+#mycard2:hover{
+    @extend %onhoverbigger;
+}
+#mycard3:hover{
+    @extend %onhoverbigger;
+}
+#mycard4:hover{
+    @extend %onhoverbigger;
+}

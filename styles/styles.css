@@ -820,3 +820,7 @@ body {
     font-weight: 600;
   }
 }/*# sourceMappingURL=styles.css.map */
+footer{
+  background-color: #35424a;
+  margin-top: 5em;
+}

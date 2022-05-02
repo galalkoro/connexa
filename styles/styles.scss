@@ -1,15 +1,36 @@
 @import './aboutStyle';
 @import './klarida';
+<<<<<<< HEAD
 @import './home'
+=======
+@import './home';
+@import './team';
+>>>>>>> 2320b873c0e1d09519d0a528ed04a007604fceda
 
 
 
+<<<<<<< HEAD
+=======
+.grids{
+    margin-bottom: 5em;
+}
+>>>>>>> 2320b873c0e1d09519d0a528ed04a007604fceda
 
 body {
 
     margin: 0;
     padding: 0;
     background-color: #93d0a2b6;
+<<<<<<< HEAD
+=======
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: #35424a;
+    text-align: center;
+>>>>>>> 2320b873c0e1d09519d0a528ed04a007604fceda
 }
 
 #currnt{
@@ -81,7 +102,6 @@ body {
   font-size: 2em;
   margin:0
 }
-
 
 @media (max-width:991px){
 

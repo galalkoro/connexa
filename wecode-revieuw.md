@@ -111,5 +111,4 @@
 
 ### Errors are to be avoided
 - [x] No http resources are used on an https website
-- [ ] The console shows no errors
-        only the html
+- [x] The console shows no errors

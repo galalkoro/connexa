@@ -1,4 +1,3 @@
-@import url("../Font/scss");
 #mycard1:hover, #mycard2:hover, #mycard3:hover, #mycard4:hover {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);

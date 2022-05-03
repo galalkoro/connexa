@@ -124,7 +124,6 @@ header h1{
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -134,16 +133,6 @@ header h1{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 110vh;
-}
-
-.content section {
-  margin-top: 8vh;
-  margin-left: 20vh;
-}
-
-.content form {
-  margin-top: 7rem;
 }
 
 .section i {
@@ -159,10 +148,8 @@ header h1{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
   top: 0;
   left: 0;
-  margin-left: 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -177,18 +164,14 @@ header h1{
   background-color: transparent;
   border: 0px;
   border: transparent;
-  margin: 20px;
   padding: 20px;
   font-size: 18px;
   border-bottom: 2px solid #fff;
 }
 
 .form .contact-form input ~ span {
-  position: absolute;
-  left: 20px;
   -webkit-transition: 0.9s ease-in-out;
   transition: 0.9s ease-in-out;
-  margin-top: 10px;
 }
 
 .form .contact-form input:focus ~ span {
@@ -201,15 +184,11 @@ header h1{
   width: 30rem;
   border: 0;
   background-color: transparent;
-  margin: 20px;
   font-size: 17px;
   border-bottom: 2px solid #fff;
 }
 
 .form .contact-form textarea ~ span {
-  position: absolute;
-  left: 20px;
-  margin-top: 10px;
   -webkit-transition: 0.9s ease-in-out;
   transition: 0.9s ease-in-out;
 }
@@ -226,7 +205,6 @@ header h1{
   font-size: 18px;
   width: 50%;
   height: 40px;
-  margin-top: -5px;
 }
 
 .form .contact-form input[type=submit]:hover {
@@ -236,16 +214,10 @@ header h1{
 
 .media {
   position: relative;
-  top: 85vh;
-  right: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-}
-
-.media li {
-  margin: 20px 30px;
 }
 
 /*coding for responsive */
@@ -262,15 +234,6 @@ header h1{
 }*/
   .empty {
     height: 200vh;
-  }
-  .form {
-    position: absolute;
-    top: 100vh;
-    margin-left: 10%;
-  }
-  .content-form {
-    margin-top: 53vh;
-    margin-left: 10vh;
   }
 }
 

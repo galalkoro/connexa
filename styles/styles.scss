@@ -1,28 +1,13 @@
 @import './aboutStyle';
 @import './klarida';
-<<<<<<< HEAD
-@import './home'
-=======
 @import './home';
-@import './team';
->>>>>>> 2320b873c0e1d09519d0a528ed04a007604fceda
-
-
-
-<<<<<<< HEAD
-=======
-.grids{
-    margin-bottom: 5em;
-}
->>>>>>> 2320b873c0e1d09519d0a528ed04a007604fceda
+@import url('../Font/css/all.css');
 
 body {
 
     margin: 0;
     padding: 0;
     background-color: #93d0a2b6;
-<<<<<<< HEAD
-=======
 }
 footer{
     padding: 20px;
@@ -30,7 +15,6 @@ footer{
     color:#ffffff;
     background-color: #35424a;
     text-align: center;
->>>>>>> 2320b873c0e1d09519d0a528ed04a007604fceda
 }
 
 #currnt{
@@ -99,7 +83,7 @@ footer{
 }
 
 .copyright-text{
-  font-size: 2em;
+  font-size: 1.5em;
   margin:0
 }
 
@@ -112,23 +96,23 @@ footer{
 
 @media (max-width:767px)
 {
-  .site-footer
-  {
+
+  .site-footer{
     padding-bottom:0
   }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
+
+  .site-footer .copyright-text,.site-footer .social-icons{
     text-align:center
   }
 }
-.social-icons
-{
+
+.social-icons{
   padding-left:0;
   margin-bottom:0;
   list-style:none
 }
-.social-icons li
-{
+
+.social-icons li{
   display:inline-block;
   margin-bottom:4px
 }

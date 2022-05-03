@@ -50,7 +50,7 @@ header h1{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: rgb(255, 255, 255,0.8);
+    background-color: rgba(255, 255, 255,0.8);
     color: #000 ;
     text-align: center;
 }
@@ -117,7 +117,7 @@ header h1{
     color: dodgerblue;
 }
 .media{
-    position: absolute;
+    position: relative;
     top: 85vh;
     right: 20vh;
     display: flex;
@@ -149,4 +149,8 @@ header h1{
 .content-form{
     margin-top: 53vh; 
     margin-left: 10vh;
+}
+}
+#plscentre{
+    text-align: center;
 }

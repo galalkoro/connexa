@@ -274,10 +274,6 @@ header h1{
   }
 }
 
-#plscentre {
-  text-align: center;
-}
-
 .hero-home {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,10 +465,8 @@ header h1{
 }
 
 /*.card:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }*/
-
 .card:active {
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
@@ -607,7 +601,7 @@ header h1{
 }
 
 @media screen and (min-width: 1024px) {
- /* html {
+  /* html {
     font-size: 62.5%;
   }*/
   .grids {
@@ -756,7 +750,7 @@ header h1{
 body {
   margin: 0;
   padding: 0;
-  background-color: #2d4633fb;
+  background-color: #354639fb;
 }
 
 footer {

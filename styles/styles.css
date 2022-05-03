@@ -150,7 +150,6 @@ header h1{
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  background-color: rgba(255, 255, 255, 0.8);
   color: #000;
   text-align: center;
 }
@@ -730,7 +729,6 @@ body {
 footer {
   padding: 20px;
   margin-top: 20px;
-  color: #ffffff;
   background-color: #35424a;
   text-align: center;
 }
@@ -794,7 +792,6 @@ footer {
   margin-left: 6px;
   margin-right: 0;
   border-radius: 100%;
-  background-color: white;
 }
 
 .copyright-text {
@@ -837,7 +834,6 @@ footer {
 }
 
 .social-icons a {
-  background-color: #eceeef;
   color: #818a91;
   font-size: 16px;
   display: inline-block;
